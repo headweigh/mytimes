@@ -1,34 +1,37 @@
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: 1px solid black;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
+  width: 750px;
   margin: 0px 20px;
-  width:
-  border: 1px solid black;
+  border: 1px solid blue;
 }
 
 .logo span {
   color: MediumAquamarine;
   margin: 0px 13px;
+  border: 1px solid red;
 }
 
 .header nav {
   display: inline-flex;
   align-items: center;
   margin: 0px 20px;
+  border: 1px solid green;
 }
 
 .header span {
   display: inline-block;
-  margin: 13px;
+  margin: 15px;
 }
 
 a {
