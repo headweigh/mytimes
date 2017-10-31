@@ -67,9 +67,6 @@ a {
   width: 240px;
 }
 
-.story {
-
-}
 .image {
   display: inline-flex;
   font-family: Georgia;
@@ -77,6 +74,11 @@ a {
   font-size: 30px;
   color: white;
   height: 300px;
+}
+
+.image span {
+  align-self: center;
+  text-align: center;
 }
 
 .copy {
@@ -140,8 +142,9 @@ a {
 
 footer {
   display: flex;
+  flex-direction: column;
   height: 400px;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   background-color: MediumAquamarine;
   margin: auto;
@@ -149,9 +152,25 @@ footer {
   font-size: 12px;
 }
 
+#line1 {
+  display: inline-flex;
+  flex-direction: row;
+}
+
 .mytitle {
+  display: inline-block;
+  margin: 6px 25px 0px 0px;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+}
+
+.nav-items {
+  display: inline-block;
+  margin: 8px 10px 0px 10px;
+}
+
+#line2 {
+  justify-content: center;
 }
